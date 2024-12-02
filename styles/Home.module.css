@@ -1,0 +1,27 @@
+.container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  .googleBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .googleBtn:hover {
+    background-color: #357AE8;
+  }
+  
